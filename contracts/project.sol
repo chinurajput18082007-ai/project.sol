@@ -26,6 +26,7 @@ contract TicketSafe {
         require(msg.sender == owner, "Only contract owner can call this");
         _;
     }
+// edit code
 
     modifier onlyTicketOwner(uint256 _ticketId) {
         require(tickets[_ticketId].owner == msg.sender, "You do not own this ticket");
