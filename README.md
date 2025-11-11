@@ -2,6 +2,8 @@
 
 ## Project Description
 **TicketSafe** is a blockchain-based smart contract system that enables secure creation, transfer, and verification of event tickets. Each ticket is a unique on-chain record, ensuring transparency, authenticity, and preventing fraudulent duplication.
+// project discription
+
 
 ## Project Vision
 To revolutionize event ticketing by eliminating counterfeit tickets and enabling peer-to-peer transfers with full transparency.  
