@@ -16,7 +16,7 @@ contract TicketSafe {
         bool isUsed;
     }// file edited
 
-    mapping(uint256 => Ticket) public tickets;
+    mapping(uint256 => Ticket) public tickets;// comit added
 
     event TicketCreated(uint256 ticketId, string eventName, address indexed owner);
     event TicketTransferred(uint256 ticketId, address indexed from, address indexed to);
