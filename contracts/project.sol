@@ -14,7 +14,7 @@ contract TicketSafe {
         address owner;
         string eventName;
         bool isUsed;
-    }
+    }// file edited
 
     mapping(uint256 => Ticket) public tickets;
 
